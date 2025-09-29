@@ -243,10 +243,10 @@ export function HomePage() {
             Join thousands of satisfied customers across Tamil Nadu. Get started today!
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button href="/contact" className="bg-white text-[#317039] hover:bg-gray-100 min-w-[200px]">
+            <Button href="/contact" className="bg-white text-[#317039] hover:bg-gray-100 hover:text-[#317039] border-2 border-white font-semibold min-w-[200px]">
               Get in Touch
             </Button>
-            <Button href="/bulk-inquiry" className="border-2 border-white text-white hover:bg-white hover:text-[#317039] min-w-[200px]">
+            <Button href="/bulk-inquiry" className="bg-white text-[#317039] hover:bg-gray-100 hover:text-[#317039] border-2 border-white font-semibold min-w-[200px]">
               Bulk Inquiry
             </Button>
           </div>
