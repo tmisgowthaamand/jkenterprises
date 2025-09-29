@@ -69,10 +69,45 @@ export function Footer() {
           </div>
         </div>
 
-        <div className="border-t border-gray-700 mt-8 pt-8 text-left font-['Inter']">
-          <p className="text-gray-300">
-            © 2025 JK Enterprises. All rights reserved. | Trusted recycling partner across Tamil Nadu.
-          </p>
+        <div className="border-t border-gray-700 mt-8 pt-6 font-['Inter']">
+          <div className="flex flex-col lg:flex-row lg:items-center lg:justify-between gap-4">
+            <div className="text-center lg:text-left">
+              <p className="text-gray-300 text-sm leading-relaxed">
+                © 2025 <span className="font-semibold">JK Enterprises</span>. All rights reserved. 
+                <span className="mx-2 text-gray-500">|</span>
+                <span className="text-gray-400">Trusted recycling partner across Tamil Nadu.</span>
+              </p>
+            </div>
+            <div className="flex flex-wrap justify-center lg:justify-end items-center gap-3 text-sm">
+              <Link 
+                to="/privacy-policy" 
+                className="text-gray-300 hover:text-white hover:underline transition-all duration-200 whitespace-nowrap"
+              >
+                Privacy Policy
+              </Link>
+              <span className="text-gray-500 text-xs">•</span>
+              <Link 
+                to="/terms-conditions" 
+                className="text-gray-300 hover:text-white hover:underline transition-all duration-200 whitespace-nowrap"
+              >
+                Terms & Conditions
+              </Link>
+              <span className="text-gray-500 text-xs">•</span>
+              <Link 
+                to="/shipping-policy" 
+                className="text-gray-300 hover:text-white hover:underline transition-all duration-200 whitespace-nowrap"
+              >
+                Shipping Policy
+              </Link>
+              <span className="text-gray-500 text-xs">•</span>
+              <Link 
+                to="/refund-policy" 
+                className="text-gray-300 hover:text-white hover:underline transition-all duration-200 whitespace-nowrap"
+              >
+                Cancellation & Refund
+              </Link>
+            </div>
+          </div>
         </div>
       </div>
     </footer>

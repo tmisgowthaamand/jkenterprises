@@ -1,8 +1,77 @@
 {
+  "buildCommand": "npm run build",
+  "outputDirectory": "dist",
+  "framework": "vite",
   "rewrites": [
     {
       "source": "/(.*)",
       "destination": "/index.html"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/privacy-policy",
+      "dest": "/index.html"
+    },
+    {
+      "src": "/terms-conditions", 
+      "dest": "/index.html"
+    },
+    {
+      "src": "/shipping-policy",
+      "dest": "/index.html"
+    },
+    {
+      "src": "/refund-policy",
+      "dest": "/index.html"
+    },
+    {
+      "src": "/scrap",
+      "dest": "/index.html"
+    },
+    {
+      "src": "/granules",
+      "dest": "/index.html"
+    },
+    {
+      "src": "/about",
+      "dest": "/index.html"
+    },
+    {
+      "src": "/contact",
+      "dest": "/index.html"
+    },
+    {
+      "src": "/product/(.*)",
+      "dest": "/index.html"
+    },
+    {
+      "src": "/cart",
+      "dest": "/index.html"
+    },
+    {
+      "src": "/checkout",
+      "dest": "/index.html"
+    },
+    {
+      "src": "/payment",
+      "dest": "/index.html"
+    },
+    {
+      "src": "/order-confirmation",
+      "dest": "/index.html"
+    },
+    {
+      "src": "/inquiry-cart",
+      "dest": "/index.html"
+    },
+    {
+      "src": "/bulk-order",
+      "dest": "/index.html"
+    },
+    {
+      "src": "/bulk-inquiry",
+      "dest": "/index.html"
     }
   ],
   "headers": [
@@ -29,6 +98,19 @@
         {
           "key": "X-XSS-Protection",
           "value": "1; mode=block"
+        },
+        {
+          "key": "Referrer-Policy",
+          "value": "origin-when-cross-origin"
+        }
+      ]
+    },
+    {
+      "source": "/static/(.*)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=31536000, immutable"
         }
       ]
     }

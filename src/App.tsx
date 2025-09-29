@@ -16,6 +16,10 @@ import { OrderConfirmationPage } from './pages/OrderConfirmationPage';
 import { InquiryCartPage } from './pages/InquiryCartPage';
 import { BulkOrderPage } from './pages/BulkOrderPage';
 import { BulkInquiryPage } from './pages/BulkInquiryPage';
+import { PrivacyPolicyPage } from './pages/PrivacyPolicyPage';
+import { TermsConditionsPage } from './pages/TermsConditionsPage';
+import { ShippingPolicyPage } from './pages/ShippingPolicyPage';
+import { RefundPolicyPage } from './pages/RefundPolicyPage';
 import { NotFoundPage } from './pages/NotFoundPage';
 
 function App() {
@@ -40,6 +44,10 @@ function App() {
               <Route path="/inquiry-cart" element={<InquiryCartPage />} />
               <Route path="/bulk-order" element={<BulkOrderPage />} />
               <Route path="/bulk-inquiry" element={<BulkInquiryPage />} />
+              <Route path="/privacy-policy" element={<PrivacyPolicyPage />} />
+              <Route path="/terms-conditions" element={<TermsConditionsPage />} />
+              <Route path="/shipping-policy" element={<ShippingPolicyPage />} />
+              <Route path="/refund-policy" element={<RefundPolicyPage />} />
               <Route path="*" element={<NotFoundPage />} />
             </Routes>
           </main>
