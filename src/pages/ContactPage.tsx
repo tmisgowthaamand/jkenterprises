@@ -58,7 +58,7 @@ export function ContactPage() {
     {
       icon: Mail,
       title: 'Email Address',
-      details: ['contact@jkenterprises.live'],
+      details: ['contact@jkenterprises.live', 'jkenterprises561@gmail.com'],
       action: 'mailto:contact@jkenterprises.live'
     },
     {

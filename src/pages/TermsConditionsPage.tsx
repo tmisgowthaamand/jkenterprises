@@ -173,9 +173,15 @@ export function TermsConditionsPage() {
                   </p>
                 </div>
               </div>
-              <div className="flex items-center">
-                <Mail className="h-5 w-5 text-[#317039] mr-3" />
-                <p className="text-gray-700">contact@jkenterprises.live</p>
+              <div className="space-y-2">
+                <div className="flex items-center">
+                  <Mail className="h-5 w-5 text-[#317039] mr-3" />
+                  <p className="text-gray-700">contact@jkenterprises.live</p>
+                </div>
+                <div className="flex items-center">
+                  <Mail className="h-5 w-5 text-[#317039] mr-3" />
+                  <p className="text-gray-700">jkenterprises561@gmail.com</p>
+                </div>
               </div>
               <div className="flex items-center">
                 <Phone className="h-5 w-5 text-[#317039] mr-3" />

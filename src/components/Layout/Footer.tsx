@@ -52,9 +52,15 @@ export function Footer() {
                   <p className="text-gray-300">+91 6379203963</p>
                 </div>
               </li>
-              <li className="flex items-start space-x-2">
-                <Mail className="h-5 w-5 text-[#317039] mt-0.5 flex-shrink-0" />
-                <p className="text-gray-300">contact@jkenterprises.live</p>
+              <li className="space-y-1">
+                <div className="flex items-center space-x-2">
+                  <Mail className="h-5 w-5 text-[#317039]" />
+                  <p className="text-gray-300">contact@jkenterprises.live</p>
+                </div>
+                <div className="flex items-center space-x-2">
+                  <Mail className="h-5 w-5 text-[#317039]" />
+                  <p className="text-gray-300">jkenterprises561@gmail.com</p>
+                </div>
               </li>
               <li className="flex items-start space-x-2">
                 <MapPin className="h-5 w-5 text-[#317039] mt-0.5 flex-shrink-0" />
