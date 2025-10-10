@@ -45,9 +45,19 @@ export function ScrapPage() {
             <p className="font-['Inter'] text-xl md:text-2xl mb-6 text-gray-100">
               Get the best rates for your scrap materials with free pickup service
             </p>
-            <Button href="/bulk-inquiry" className="bg-white text-[#317039] hover:bg-gray-100">
-              Bulk Inquiry
-            </Button>
+            <div className="bg-white/10 backdrop-blur-sm rounded-lg p-4 inline-block mb-6">
+              <p className="text-lg font-semibold text-white mb-2">
+                📞 Bulk Scrap and bulk order: +91 6379203963 / 9841115350
+              </p>
+              <p className="text-green-100">
+                📧 contact@jkenterprises.live
+              </p>
+            </div>
+            <div>
+              <Button href="/bulk-inquiry" className="bg-white text-[#317039] hover:bg-gray-100">
+                Bulk Inquiry
+              </Button>
+            </div>
           </div>
         </div>
       </section>

@@ -46,13 +46,13 @@ export function ContactPage() {
     {
       icon: Phone,
       title: 'Phone Number',
-      details: ['+91 6379203963'],
+      details: ['+91 6379203963 / 9841115350'],
       action: 'tel:+916379203963'
     },
     {
       icon: MessageCircle,
       title: 'WhatsApp',
-      details: ['+91 6379203963'],
+      details: ['+91 6379203963 / 9841115350'],
       action: 'https://wa.me/916379203963'
     },
     {
@@ -79,7 +79,7 @@ export function ContactPage() {
     {
       city: 'Chennai',
       address: 'No 251/7, Anna Street, Mevalurkuppam, Chennai, Mevalurkuppam Main Road, Sripermbudur, Kancheepuram, Tamil Nadu - 602105',
-      phone: '+91 6379203963',
+      phone: '+91 6379203963 / 9841115350',
       type: 'Head Office'
     }
   ];

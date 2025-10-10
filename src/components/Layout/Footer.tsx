@@ -49,7 +49,8 @@ export function Footer() {
               <li className="flex items-start space-x-2">
                 <Phone className="h-5 w-5 text-[#317039] mt-0.5 flex-shrink-0" />
                 <div>
-                  <p className="text-gray-300">+91 6379203963</p>
+                  <p className="text-gray-300">+91 6379203963 / 9841115350</p>
+                  <p className="text-gray-400 text-xs">Bulk Scrap and bulk order</p>
                 </div>
               </li>
               <li className="space-y-1">

@@ -43,26 +43,6 @@ export function AboutPage() {
     { number: '25+', label: 'Cities Covered', icon: MapPin }
   ];
 
-  const team = [
-    {
-      name: 'Jayakumar Raman',
-      position: 'Founder & CEO',
-      image: 'https://images.pexels.com/photos/2182970/pexels-photo-2182970.jpeg?auto=compress&cs=tinysrgb&w=400',
-      description: 'Visionary leader with 20+ years in recycling industry'
-    },
-    {
-      name: 'Kavitha Jayakumar',
-      position: 'Operations Director',
-      image: 'https://images.pexels.com/photos/3756679/pexels-photo-3756679.jpeg?auto=compress&cs=tinysrgb&w=400',
-      description: 'Expert in supply chain and quality management'
-    },
-    {
-      name: 'Rajesh Kumar',
-      position: 'Technical Head',
-      image: 'https://images.pexels.com/photos/3785079/pexels-photo-3785079.jpeg?auto=compress&cs=tinysrgb&w=400',
-      description: 'Specialist in granule processing and quality control'
-    }
-  ];
 
   return (
     <div className="min-h-screen bg-[#FAFAFA]">
@@ -142,7 +122,7 @@ export function AboutPage() {
                 Building Trust Through Transparency
               </h3>
               <p className="font-['Inter'] text-gray-600 mb-6 leading-relaxed">
-                Founded in 2009 by Jayakumar Raman, JK Enterprises began with a simple mission: 
+                Founded in 2009 by Priya Kamal, JK Enterprises began with a simple mission: 
                 to make recycling accessible, transparent, and profitable for everyone. We recognized 
                 that the traditional scrap industry lacked transparency in pricing and reliability in service.
               </p>
@@ -233,41 +213,6 @@ export function AboutPage() {
         </div>
       </section>
 
-      {/* Leadership Team */}
-      <section className="py-20 bg-[#FAFAFA]">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-16">
-            <h2 className="font-['Montserrat'] font-bold text-3xl md:text-4xl text-[#2C2C2C] mb-4">
-              Leadership Team
-            </h2>
-            <p className="font-['Inter'] text-lg text-gray-600 max-w-2xl mx-auto">
-              Meet the experienced professionals driving our mission forward
-            </p>
-          </div>
-
-          <div className="grid md:grid-cols-3 gap-8">
-            {team.map((member, index) => (
-              <div key={index} className="bg-white rounded-xl shadow-sm hover:shadow-md transition-shadow p-6 text-center">
-                <img
-                  src={member.image}
-                  alt={member.name}
-                  className="w-24 h-24 rounded-full mx-auto mb-4 object-cover"
-                />
-                <h3 className="font-['Montserrat'] font-semibold text-xl text-[#2C2C2C] mb-2">
-                  {member.name}
-                </h3>
-                <p className="font-['Inter'] text-[#317039] font-medium mb-3">
-                  {member.position}
-                </p>
-                <p className="font-['Inter'] text-gray-600 text-sm">
-                  {member.description}
-                </p>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
       {/* CTA Section */}
       <section className="py-16 bg-gradient-to-r from-[#317039] to-[#FF5B04]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-white">
@@ -278,10 +223,10 @@ export function AboutPage() {
             Join thousands of businesses across Tamil Nadu in building a sustainable future
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button href="/contact" className="bg-white text-[#317039] hover:bg-gray-100 min-w-[200px]">
+            <Button href="/contact" className="!bg-white !text-[#317039] hover:!bg-gray-100 min-w-[200px] font-semibold">
               Contact Us Today
             </Button>
-            <Button href="/bulk-inquiry" className="border-2 border-white text-white hover:bg-white hover:text-[#317039] min-w-[200px]">
+            <Button href="/bulk-inquiry" className="!border-2 !border-white !text-white hover:!bg-white hover:!text-[#317039] min-w-[200px] font-semibold !bg-transparent">
               Request Bulk Quote
             </Button>
           </div>

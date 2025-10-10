@@ -157,9 +157,17 @@ export function BulkOrderPage() {
             <h1 className="text-3xl md:text-4xl font-bold mb-4 font-['Montserrat']">
               Bulk Order Inquiry
             </h1>
-            <p className="text-xl text-green-100 font-['Inter']">
+            <p className="text-xl text-green-100 font-['Inter'] mb-4">
               Get the best prices for large quantity orders with personalized service
             </p>
+            <div className="bg-white/10 backdrop-blur-sm rounded-lg p-4 inline-block">
+              <p className="text-lg font-semibold text-white mb-2">
+                📞 Bulk Scrap and bulk order: +91 6379203963 / 9841115350
+              </p>
+              <p className="text-green-100">
+                📧 contact@jkenterprises.live
+              </p>
+            </div>
           </div>
         </div>
       </div>
@@ -467,8 +475,8 @@ export function BulkOrderPage() {
               <div className="mt-6 pt-6 border-t border-gray-200">
                 <h3 className="font-semibold text-[#2C2C2C] mb-3">Need Help?</h3>
                 <div className="text-sm text-gray-600 space-y-2">
-                  <p>📞 Bulk Orders: +91 98765 43210</p>
-                  <p>📧 Email: bulk@jkenterprises.com</p>
+                  <p>📞 Bulk Scrap and bulk order: +91 6379203963 / 9841115350</p>
+                  <p>📧 Email: contact@jkenterprises.live</p>
                   <p>🕒 Response: Within 4 hours</p>
                 </div>
               </div>

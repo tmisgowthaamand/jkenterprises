@@ -183,7 +183,7 @@ export function ShippingPolicyPage() {
               </div>
               <div className="flex items-center">
                 <Phone className="h-5 w-5 text-[#317039] mr-3" />
-                <p className="text-gray-700">+91 63792 03963</p>
+                <p className="text-gray-700">+91 6379203963 / 9841115350</p>
               </div>
             </div>
           </section>

@@ -155,9 +155,17 @@ export function BulkInquiryPage() {
             <h1 className="text-3xl md:text-4xl font-bold mb-4 font-['Montserrat']">
               Bulk Scrap Inquiry
             </h1>
-            <p className="text-xl text-orange-100 font-['Inter']">
+            <p className="text-xl text-orange-100 font-['Inter'] mb-4">
               Sell your scrap in bulk and get the best prices with free collection service
             </p>
+            <div className="bg-white/10 backdrop-blur-sm rounded-lg p-4 inline-block">
+              <p className="text-lg font-semibold text-white mb-2">
+                📞 Bulk Scrap and bulk order: +91 6379203963 / 9841115350
+              </p>
+              <p className="text-orange-100">
+                📧 contact@jkenterprises.live
+              </p>
+            </div>
           </div>
         </div>
       </div>
@@ -444,8 +452,8 @@ export function BulkInquiryPage() {
                 <div className="pt-4 border-t border-gray-200">
                   <h3 className="font-semibold text-[#2C2C2C] mb-3">Need Help?</h3>
                   <div className="text-sm text-gray-600 space-y-2">
-                    <p>📞 Bulk Scrap: +91 98765 43211</p>
-                    <p>📧 Email: scrap@jkenterprises.com</p>
+                    <p>📞 Bulk Scrap and bulk order: +91 6379203963 / 9841115350</p>
+                    <p>📧 Email: contact@jkenterprises.live</p>
                     <p>🕒 Response: Within 4 hours</p>
                   </div>
                 </div>
